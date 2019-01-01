@@ -1,0 +1,25 @@
+   --------------------
+3 |    |    |    | +1 |
+   --------------------
+2 |    |xxxx|    | -1 |
+   --------------------
+1 |    |    |    |    |
+   --------------------
+    1    2    3     4
+#Please refer to the above example with the corresponding values available below. For detailed information about using the input file, please refer to Readme.md
+#Enter the size of the grid (#columns, #rows)
+size: 4 3
+#list of location of walls (i, j)
+walls : 2 2
+#list of terminal states (row,column,reward)
+terminal_states: 4 2 -1, 4 3 1
+#reward in non-terminal states
+reward: -0.04
+#transition probabilites in the order of the actions (Forward, Left, Right, Backward)
+transition_probabilities : 0.8 0.1 0.1 0.0
+#gamma discount value
+gamma: 1
+#epsilon value
+epsilon: 0.001
+
+
