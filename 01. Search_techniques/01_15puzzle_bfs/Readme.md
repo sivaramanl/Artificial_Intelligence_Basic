@@ -14,6 +14,7 @@ Algorithm source: Artificial Intelligence A modern approach 3rd edition S. Russe
 
 Example input:
 2 3 4 0 1 5 7 8 9 6 10 12 13 14 11 15
+
 Output for example input:
 Moves: LLLDRDRDR
 Number of Nodes expanded: 1734
