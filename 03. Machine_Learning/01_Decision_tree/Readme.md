@@ -17,17 +17,4 @@ This does not work without the first parameter being the file name. Thus, if the
 Algorithm source: Artificial Intelligence A modern approach 3rd edition S. Russell and P.Norvig
 
 Output for "restaurant.csv":
-Decision Tree
-
-Attribute: 5
--- Full ? Attribute: 4
-                -- No ? No
-                -- Yes ? Attribute: 9
-                                -- Burger ? Yes
-                                -- French ? Yes
-                                -- Italian ? No
-                                -- Thai ? Attribute: 3
-                                                -- No ? No
-                                                -- Yes ? Yes
--- None ? No
--- Some ? Yes
+<Please refer to Decision_tree_output.PNG>
