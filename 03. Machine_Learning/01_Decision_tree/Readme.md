@@ -17,4 +17,4 @@ This does not work without the first parameter being the file name. Thus, if the
 Algorithm source: Artificial Intelligence A modern approach 3rd edition S. Russell and P.Norvig
 
 Output for "restaurant.csv":
-<Please refer to Decision_tree_output.PNG>
+Please refer to Decision_tree_output.PNG
