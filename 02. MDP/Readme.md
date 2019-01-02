@@ -1,5 +1,4 @@
 MDP (Markov decision process) problem for generic grid world
-Readme
 ---------------------
 1. The source code for identifying the utility values of each state in a generic grid world problem has been implemented in Python (Python version 3.6.5)
 2. The name of the source code file is mdp_value_iteration.py
