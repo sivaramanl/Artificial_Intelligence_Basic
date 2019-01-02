@@ -1,5 +1,4 @@
 Decision Tree implementation for binary classification
-Readme
 ---------------------
 1. The source code for generating the decision tree for binary classification from the given dataset has been implemented in Python (Python version 3.6.5)
 2. The name of the source code file is decision_tree.py
