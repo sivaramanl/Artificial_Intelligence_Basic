@@ -14,7 +14,7 @@ Decision Tree implementation for binary classification
 8. The decision tree will be printed in the configured output stream.
 <br>
 Algorithm source: Artificial Intelligence A modern approach 3rd edition S. Russell and P.Norvig
-<br>
+<br><br>
 Output for "restaurant.csv":
 <br>
 Please refer to Decision_tree_output.PNG
