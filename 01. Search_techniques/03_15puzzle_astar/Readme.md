@@ -1,5 +1,4 @@
 15 puzzle - A*
-Readme
 ---------------------
 1. The source code for the 15 puzzle problem has been implemented in Python (Python version 3.6.5)
 2. The name of the source code file is 15puzzle_astar.py
@@ -12,17 +11,27 @@ Readme
 
 Algorithm source: Artificial Intelligence A modern approach 3rd edition S. Russell and P.Norvig
 
-Example input:
+<b>Example input:</b>
 2 3 4 0 1 5 7 8 9 6 10 12 13 14 11 15
-Output for example input:
-Searching for solution using Heuristic 1: Number of misplaced tiles
-Moves: LLLDRDRDR
-Number of Nodes expanded: 9
-Time taken: 0.9970664978027344ms
-Memory used: 14307.328kb
 
-Searching for solution using Heuristic 2: Manhattan distance
+<b>Output for example input:</b>
+<br>
+Searching for solution using Heuristic 1: Number of misplaced tiles
+<br>
 Moves: LLLDRDRDR
+<br>
 Number of Nodes expanded: 9
+<br>
+Time taken: 0.9970664978027344ms
+<br>
+Memory used: 14307.328kb
+<br><br>
+Searching for solution using Heuristic 2: Manhattan distance
+<br>
+Moves: LLLDRDRDR
+<br>
+Number of Nodes expanded: 9
+<br>
 Time taken: 0.0ms
+<br>
 Memory used: 14311.424kb
