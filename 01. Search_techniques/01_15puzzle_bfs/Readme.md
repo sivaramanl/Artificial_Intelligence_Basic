@@ -1,5 +1,4 @@
 15 puzzle - BFS (Breadth first search)
-Readme
 ---------------------
 1. The source code for the 15 puzzle problem has been implemented in Python (Python version 3.6.5)
 2. The name of the source code file is 15puzzle_bfs.py
@@ -12,11 +11,16 @@ Readme
 
 Algorithm source: Artificial Intelligence A modern approach 3rd edition S. Russell and P.Norvig
 
-Example input:
+<b>Example input:</b>
+<br>
 2 3 4 0 1 5 7 8 9 6 10 12 13 14 11 15
 
-Output for example input:
+<b>Output for example input:</b>
+<br>
 Moves: LLLDRDRDR
+<br>
 Number of Nodes expanded: 1734
+<br>
 Time taken: 987.4017238616943ms
+<br>
 Memory used: 17215.488kb
