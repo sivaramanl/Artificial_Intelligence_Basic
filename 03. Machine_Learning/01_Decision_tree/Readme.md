@@ -6,13 +6,15 @@ Decision Tree implementation for binary classification
 > python decision_tree.py
 4. If a different file name is to be used, it can be provided as a command line argument.
 > python decision_tree.py new_file.csv
-5. Please note that the first line of the CSV file IS NOT considered to be the header by default, i.e., the source code assumes that there are no headers and hence prints the decision tree with the attributes named corresponding to the column numbers in the CSV file. If the first line of the input file is to be considered as header, please include the "--header" option as the second command line argument.
+5. Please note that the first line of the CSV file IS NOT considered to be the header by default, i.e., the source code assumes that there are no headers and hence prints the decision tree with the attributes named corresponding to the column numbers in the CSV file. 
+6. If the first line of the input file is to be considered as header, please include the "--header" option as the second command line argument.
 > python decision_tree.py new_file.csv --header
-6. This does not work without the first parameter being the file name. Thus, if the file is named "restaurant.csv" and contains headers, the source code is to be executed as follows.
+7. This does not work without the first parameter being the file name. Thus, if the file is named "restaurant.csv" and contains headers, the source code is to be executed as follows.
 > python decision_tree.py restaurant.csv --header
-7. The decision tree will be printed in the configured output stream.
+8. The decision tree will be printed in the configured output stream.
 <br>
 Algorithm source: Artificial Intelligence A modern approach 3rd edition S. Russell and P.Norvig
-
+<br>
 Output for "restaurant.csv":
+<br>
 Please refer to Decision_tree_output.PNG
