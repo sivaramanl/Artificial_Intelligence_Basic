@@ -177,13 +177,13 @@ def puzzle15_astar(seq):
     current_node = seq
     #branch_seq holds the [action, parent_node_index] for each state explored, identified by the order (index) of exploration
     branch_seq = [['-', -1]]
-    if is_soln(current_node):
-        #initial state is solution. Print the solution and return.
-        print_soln(branch_seq, nodes_expanded, time.time())
-        return
     #add the initial state to the frontier
     frontier = []
     initial_state_f_n = calculate_f_n(0, current_node)
+    if is_soln(initial_state_f_n[1]):
+        #initial state is solution. Print the solution and return.
+        print_soln(branch_seq, nodes_expanded, time.time())
+        return
     add_to_frontier(frontier, current_node, 0, initial_state_f_n)
     #declare explored as an empty list
     explored = []
